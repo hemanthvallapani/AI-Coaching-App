@@ -1,0 +1,63 @@
+# ========= Python / FastAPI =========
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+env
+venv/
+env/
+server/venv/
+server/.env
+server/*.env
+
+# Logs
+*.log
+*.sqlite3
+
+# Editor / OS
+.DS_Store
+Thumbs.db
+
+# pytest / coverage
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Python packaging
+*.egg-info
+dist/
+build/
+
+# ========= Node / React / Vite =========
+# dependencies
+client/node_modules/
+
+# build
+client/dist/
+client/.vite/
+
+# local env files
+client/.env
+client/*.env
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Vite cache
+client/.vite
+
+# IDEs
+.vscode/
+.idea/
+
+# Misc junk
+*.swp
+*.swo
